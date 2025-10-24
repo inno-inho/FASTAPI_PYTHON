@@ -1,0 +1,12 @@
+# FastApi에 필요한 라이브러리
+
+# 웹 프레임워크
+# 예를 들어, 클라이언트가 /users로 요청을 보내면 FastAPI가 받아서 Python 함수로 연결해줌
+fastapi
+
+# 앱을 실제로 실행시키는 서버
+uvicorn
+
+# 클라이언트가 파일을 업로드할 때, HTTP 요청이 multipart/form-data 형태로 전송
+# FastAPI가 그걸 읽을 수 있도록 도와주는 라이브러리
+python-multipart
